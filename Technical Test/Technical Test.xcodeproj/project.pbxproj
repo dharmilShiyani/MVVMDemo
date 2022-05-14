@@ -73,6 +73,39 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		850D6B49282F65F400C55A0B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				85968E30282D774C00C7E711 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		850D6B4A282F666200C55A0B /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				85968E35282D774E00C7E711 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		850D6B4B282F666F00C55A0B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				850D6B49282F65F400C55A0B /* Main */,
+				850D6B4A282F666200C55A0B /* LaunchScreen */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		850D6B4C282F667C00C55A0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85968E33282D774E00C7E711 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		851B95EF282EBDE100269C14 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,13 +166,12 @@
 			children = (
 				85968E2A282D774C00C7E711 /* AppDelegate.swift */,
 				85968E2C282D774C00C7E711 /* SceneDelegate.swift */,
+				85968E38282D774E00C7E711 /* Info.plist */,
 				851B95F2282EC11300269C14 /* Utility */,
 				851B95EF282EBDE100269C14 /* TabBar */,
 				85968E3E282D787700C7E711 /* LogIn  */,
-				85968E30282D774C00C7E711 /* Main.storyboard */,
-				85968E33282D774E00C7E711 /* Assets.xcassets */,
-				85968E35282D774E00C7E711 /* LaunchScreen.storyboard */,
-				85968E38282D774E00C7E711 /* Info.plist */,
+				850D6B4B282F666F00C55A0B /* Storyboard */,
+				850D6B4C282F667C00C55A0B /* Resources */,
 			);
 			path = "Technical Test";
 			sourceTree = "<group>";
